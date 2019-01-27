@@ -1,0 +1,20 @@
+{
+    "elements": {
+        "a": {
+            "attributes": {
+                "href": {}
+            }
+        }
+    },
+    "attributes": {
+        "a": {
+            "context": "img"
+        },
+        "integrity": {
+            "context": "link"
+        },
+        "<": {
+            "context": "img"
+        }
+    }
+}
