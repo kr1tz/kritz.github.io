@@ -1,4 +1,5 @@
-#kr1tz.github.io
+kr1tz.github.io
+=
 
 My minimalist website, because I like neat and tidy! Using a static site hosted for free by GitHub. 
 
