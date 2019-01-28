@@ -232,15 +232,31 @@ overflow: auto;
 
 /* image formatting  --- */
 
-img {
+.logok
+{
   border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.avatar
+{
+  border-radius: 50%;  
   float: left;
   margin-right: 1.5em;
 }
+
 img p
 { 
- margin-bottom: 2.5em;
+margin-bottom: 2.5em;
 overflow: hidden;
+}
+
+.socials
+{
+  border-radius: 50%;
+  float: right;
+  margin-right: 1.5em;
 }
 
 
@@ -263,6 +279,7 @@ footer-images ul
   display: flex;
   justify-content: center;
   align-items: center;
+ 
 }
 
 
@@ -295,7 +312,8 @@ footer-images ul
 	width: 100%;
 }
 }
-.thumbnail {
+.thumbnail 
+{
 	width: 50%;
 }
 .text_column
