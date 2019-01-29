@@ -252,7 +252,7 @@ margin-bottom: 2.5em;
 overflow: hidden;
 }
 
-.instaimg img { margin-bottom: 30px;}
+.instaimg img { border-radius: 50%; overflow: hidden; height: 210px;margin-bottom: 30px;}
 .instaimg img:hover {opacity:0.8; -moz -opacity:0.8; webkit -opacity: 0.8 }
 
 
