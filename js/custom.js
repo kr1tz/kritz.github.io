@@ -19,7 +19,7 @@ $( document ).ready(function()
     });
 userFeed.run();
 
-$('gallery').magnificPopup({
+$('.gallery').magnificPopup({
     type:'image',
     delegate: 'a',
     gallery: {
