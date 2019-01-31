@@ -14,20 +14,27 @@ $(document).ready(function()
     resolution: 'standard_resolution',    
     accessToken:'5395660838.1677ed0.f283ce8b7c024cc3a58b1e5ed90799a9',
     sortBy: 'most-recent',
-    template: '<div class="col-lg-4 instaimg"><a here="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>'
+    template: '<div class="col-lg-4 instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>'
     
     });
 userFeed.run();
 
 
+$(function(){
 $('.gallery').magnificPopup({
     type:'image',
     delegate: 'a',
     
-         gallery: {
+    
+   gallery:
+    {
+        
         enabled:true
-         
+        
     }
+    
+
+});
 });
     
 });
