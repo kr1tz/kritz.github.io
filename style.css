@@ -17,7 +17,7 @@ body {
     margin:auto;
     min-width:600px;
     max-width:2000px;
-    background: #FFF;
+    background: #C0C0C0;
     font-family: Lora, Georgia, Baskerville, serif;
     color: #505050; 
     margin-top: 0px;
@@ -26,7 +26,7 @@ body {
     margin-left: 0px;
     font-style: normal;
     font-weight: 200;
-       
+    
 }
 
 
@@ -35,6 +35,7 @@ body {
     max-width: 900px;
     margin: 0 auto;
     padding: 50px 0;
+    
     
 }
 
@@ -51,12 +52,12 @@ body {
 {
           padding-top: 0px; 
           padding-bottom: 0px; 
-          background-color: #fff;
+         
 }
 .wrapper 
 {
          padding: 0 108px; 
-         background: #fff;
+         background: #C0C0C0;;
 }
 
 
@@ -118,6 +119,7 @@ a {
     text-transform: uppercase;
     display: flex; 
     justify-content: center;
+    margin-top: -50px;
 }
 
 li 
@@ -211,6 +213,7 @@ overflow: auto;
 
 #content p + h1
 {
+  
   font-size: 2.5em; 
   border-top: 1px solid #EFEFEF;
   border-bottom: 1px solid #EFEFEF;
@@ -234,8 +237,19 @@ overflow: auto;
 
 .logok
 {
+  font-family: 'Faster One', cursive;
   margin-left: auto;
   margin-right: auto;
+  
+}
+
+.logok p
+{
+   font-size: 20px;
+   font-family: 'Amatic SC', cursive; 
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: -50px;
 }
 
 .avatar
@@ -251,8 +265,12 @@ margin-bottom: 2.5em;
 overflow: hidden;
 }
 
-.instaimg img {overflow: hidden; height: 210px;margin-bottom: 30px;}
-.instaimg img:hover {opacity:0.8; -moz -opacity:0.8; webkit -opacity: 0.8 }
+.instaimg img { overflow: hidden; height: 200px;margin-bottom: 30px;}
+.instaimg img:hover{
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    -webkit-opacity: 0.8;
+}
 
 
 .socials
